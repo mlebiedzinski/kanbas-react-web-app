@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Title</title>
+ </head>
+<body>
+
+    <table border="0" width="100%">
+
+        <tr> <!-- 1st - declares start of a row -->
+            <td valign="top"> <!-- declares a table data cell -->
+                <ul> <!-- unordered list -->
+                    <li>
+                        <a href= "../profile/index.html">Account</a>
+                    </li>
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href= "#">Courses</a>
+                    </li>
+                    <li>
+                        <a href= "#">Calendar</a>
+                    </li>
+                    <li>
+                        <a href= "#">Inbox</a>
+                    </li>
+                    <li>
+                        <a href= "#">History</a>
+                    </li>
+                    <li>
+                        <a href= "#">Studio</a>
+                    </li>
+                    <li>
+                        <a href= "#">Commons</a>
+                    </li>
+                    <li>
+                        <a href= "#">Help</a>
+                    </li>
+                </ul>
+            </td>
+        
+            <td valign="top"> <!-- 2nd - declares a table data cell -->
+                <ul> <!-- unordered list -->
+                    <li>
+                        <a href= "../home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href= "#">Modules</a>
+                    </li>
+                    <li>
+                        <a href= "#">Piazza</a>
+                    </li>
+                    <li>
+                        <a href= "#">Zoom Meetings</a>
+                    </li>
+                    <li>
+                        <a href= "#">Assignments</a>
+                    </li>
+                    <li>
+                        <a href= "#">Quizzes</a>
+                    </li>
+                    <li>
+                        <a href= "../grades.html">Grades</a>
+                    </li>
+                    <li>
+                        <a href= "#">People</a>
+                     </li>
+                    <li>
+                        <a href= "#">Panopto Video</a>
+                    </li>
+                    <li>
+                        <a href= "#">Discussions</a>
+                    </li>
+                    <li>
+                        <a href= "#">Announcements</a>
+                    </li>
+                    <li>
+                        <a href= "#">Pages</a>
+                    </li>
+                    <li>
+                        <a href= "#">Files</a>
+                    </li>
+                    <li>
+                        <a href= "#">Rubrics</a>
+                    </li>
+                    <li>
+                        <a href= "#">Outcomes</a>
+                    </li>
+                    <li>
+                        <a href= "#">Collaborations</a>
+                    </li>
+                    <li>
+                        <a href= "#">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href= "#">Settings</a>
+                    </li>
+                </ul>
+            </td>
+
+            <td valign="top"> <!-- 3rd - declares a table data cell -->
+                
+                <select>
+                    <option value="option" selected>SpeedGrader</option>
+                </select>
+                <h2>Assgnment Name</h2>
+                <input type="text"
+                       placeholder="A1 - ENV + HTML"/>
+                <form id="textarea">
+                    <br/>
+                    <textarea cols="20" rows="2">
+                        This is the assignment description.
+                    </textarea>
+                </form>
+                <br/>
+                <label for="Points"> Points
+                </label>
+                <br/>
+                <input type="points"
+                       placeholder="100"/>
+                <br/> <br/>
+                <label for="Assignment Group"> Assignment Group
+                </label> <br/>
+                <select>
+                    <option value="option" selected>ASSIGNMENTS</option>
+                </select>
+                <br/> <br/>
+                <label for="Display">Display Grade as
+                </label> <br/>
+                <select>
+                    <option value="option" selected>Percentage</option>
+                </select>
+                <br/> <br/>
+                <label for="Submission">Submission Type
+                </label> <br/>
+                <select>
+                    <option value="option" selected>Online</option>
+                </select>
+                <br/> <br/>
+
+                <label>Online Entry Options</label><br/>
+                <input type="radio" name="Text Entry"
+                    value="Text Entry" id="text entry"/> 
+                <label for="text entry">Text Entry<label><br/>
+                    
+                <input type="radio" name="Website URL" 
+                    value="Website URL" id="website url"/>
+                <label for="website url">Website URL<label><br/>
+
+                <input type="radio" name="media recordings" 
+                    value="media recordings" id="media recordings"/>
+                <label for="media recordings">Media Recordings<label><br/>
+                
+                <input type="radio" name="student annotation" 
+                    value="student annotation" id="student annotation"/>
+                <label for="student annotation">Student Annotation<label><br/>
+
+                <input type="radio" name="file uploads" 
+                    value="file uploads" id="file uploads"/>
+                <label for="file uploads">File Uploads<label><br/>
+
+                    <br/>
+                <label for="submission attempts"> Submission Attempts
+                </label> <br/>
+                    <select>
+                        <option value="option" selected>Unlimited</option>
+                    </select>
+                    <br/><br/>
+                    <label for="plagiarism Review">Plagiarism Review
+                    </label> <br/>
+                        <select>
+                            <option value="option" selected>None</option>
+                        </select><br/><br/>
+                
+                        <label>Group Assignment</label><br/>
+                        <input type="radio" name="group assigment"
+                            value="group assignment" id="group assignment"/> 
+                        <label for="group assigbment">This is a group assignment<label><br/>
+                            <br/>
+                        <label>Peer Reviews</label><br/>
+                        <input type="radio" name="peer reviews"
+                            value="peer reviews" id="peer reviews"/> 
+                        <label for="peer reviews">Require Peer Reviews<label><br/>
+                            <br/>
+                            <label for="assign"> Asssign to
+                            </label>
+                            <br/>
+                            <input type="assign"
+                                   placeholder="Everyone"/>
+                            <br/> <br/>
+
+                            <label for="due">Due<br/>
+                            </label>
+                            <input type="date"
+                            id="due"/><br/><br/>
+                    
+                            <label for="available">Available from<br/>
+                            </label>
+                            <input type="date"
+                            id="available"/><br/><br/>
+
+                            <label for="until">Until<br/>
+                            </label>
+                            <input type="date"
+                            id="until"/><br/><br/>
+
+                            <a href="index.html">
+                                <button type="button"><b>Cancel</b></button>
+                              </a>
+                              <a href="index.html">
+                                <button type="button"><b>Save</b></button>
+                              </a>
+            </td>
+
+        </tr>
+        
+    </table>
+
+</body>
+</html>
+

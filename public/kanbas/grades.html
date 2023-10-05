@@ -1,210 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <title>Title</title>
- </head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="profile/index.css" rel="stylesheet" />
+    <link href="../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
 <body>
 
-    <table border="0" width="100%">
+    <!DOCTYPE html>
+    <html lang="en">
 
-        <tr> <!-- 1st - declares start of a row -->
-            <td valign="top"> <!-- declares a table data cell -->
-                <ul> <!-- unordered list -->
-                    <li>
-                        <a href= "profile/index.html">Account</a>
-                    </li>
-                    <li>
-                        <a href="#">Dashboard</a>
-                    </li>
-                    <li>
-                        <a href= "#">Courses</a>
-                    </li>
-                    <li>
-                        <a href= "#">Calendar</a>
-                    </li>
-                    <li>
-                        <a href= "#">Inbox</a>
-                    </li>
-                    <li>
-                        <a href= "#">History</a>
-                    </li>
-                    <li>
-                        <a href= "#">Studio</a>
-                    </li>
-                    <li>
-                        <a href= "#">Commons</a>
-                    </li>
-                    <li>
-                        <a href= "#">Help</a>
-                    </li>
-                </ul>
-            </td>
-        
-            <td valign="top"> <!-- 2nd - declares a table data cell -->
-                <ul> <!-- unordered list -->
-                    <li>
-                        <a href= "home.html">Home</a>
-                    </li>
-                    <li>
-                        <a href= "#">Modules</a>
-                    </li>
-                    <li>
-                        <a href= "#">Piazza</a>
-                    </li>
-                    <li>
-                        <a href= "#">Zoom Meetings</a>
-                    </li>
-                    <li>
-                        <a href= "assignments/index.html">Assignments</a>
-                    </li>
-                    <li>
-                        <a href= "#">Quizzes</a>
-                    </li>
-                    <li>
-                        <a href= "#">Grades</a>
-                    </li>
-                    <li>
-                        <a href= "#">People</a>
-                     </li>
-                    <li>
-                        <a href= "#">Panopto Video</a>
-                    </li>
-                    <li>
-                        <a href= "#">Discussions</a>
-                    </li>
-                    <li>
-                        <a href= "#">Announcements</a>
-                    </li>
-                    <li>
-                        <a href= "#">Pages</a>
-                    </li>
-                    <li>
-                        <a href= "#">Files</a>
-                    </li>
-                    <li>
-                        <a href= "#">Rubrics</a>
-                    </li>
-                    <li>
-                        <a href= "#">Outcomes</a>
-                    </li>
-                    <li>
-                        <a href= "#">Collaborations</a>
-                    </li>
-                    <li>
-                        <a href= "#">Syllabus</a>
-                    </li>
-                    <li>
-                        <a href= "#">Settings</a>
-                    </li>
-                </ul>
-            </td>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link href="profile/index.css" rel="stylesheet" />
+        <link href="../vendors/fontawesome/css/all.css" rel="stylesheet" />
+        <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
 
-            <td valign="top"> <!-- 3rd - declares a table data cell -->
-                
-                <select>
-                    <option value="Gradebook" selected>Gradebook</option>
-                </select>
-                <button type="button">Import</button>
-                <select>
-                    <option value="Export" selected>Export</option>
-                </select>
-                <button type="button">Configure</button>
-                
-                <h2>Student Names</h2><br/>
+    <body>
+        <div class="row">
+            <div class="col-1">
+                <div class="sidebar">
+                    <ul class="sidebar-ul p-0">
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="profile/index.html">
+                                <i class="icons-white fa fa-user fa-2x"></i>
+                                <br /><span class="sidebar-text">Account</span>
+                            </a>
+                        </li>
 
-                <input type="text"
-                       placeholder="Search Students"/><br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="dashboard.html">
+                                <i class="icons-red fa fa-gauge fa-2x"></i>
+                                <br /><span class="sidebar-text">Dashboard</span>
+                            </a>
+                        </li>
 
-                <h2>Assignment Names</h2><br/>
+                        <li class="sidebar-list-items">
+                            <a:active class="sidebar-a-selected" href="#">
+                                <i class="icons-red fa fa-book fa-2x"></i>
+                                <br /><span class="sidebar-text-selected">Courses</span>
+                                </a>
+                        </li>
 
-                <input type="text"
-                       placeholder="Search Assignments"/><br/>
-                <br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-calendar fa-2x"></i>
+                                <br /><span class="sidebar-text">Calendar</span>
+                            </a>
+                        </li>
 
-                <button type="button">Apply Filters</button><br/>
-                <br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-inbox fa-2x"></i>
+                                <br /><span class="sidebar-text">Inbox</span>
+                            </a>
+                        </li>
 
-                <table border="1" width="100%">
-                    <thread>
-                    <tr>
-                        <th>Student Name</th>
-                        <th>A1 SETUP Out of 100</th>
-                        <th>A2 HTML Out of 100</th>
-                        <th>A3 CSS Out of 100</th>
-                        <th>A4 BOOTSTRAP Out of 100</th>
-                        <th>A5 JAVASCRIPT Out of 100</th>
-                        <th>A6 REACT Out of 100</th>
-                        <th>A7 REDUX Out of 100</th>
-                        <th>A8 NODE Out of 100</th>
-                        <th>A1 MONGO Out of 100</th>
-                    </tr>
-                    </thread>
-                    <tbody>
-                    <tr>
-                        <td>Alice Winderland</td>
-                        <td style="text-align: center">98</td>
-                        <td style="text-align: center">89</td>
-                        <td style="text-align: center">87</td>
-                        <td style="text-align: center">90</td>
-                        <td style="text-align: center">89</td>
-                        <td style="text-align: center">94</td>
-                        <td style="text-align: center">88</td>
-                        <td style="text-align: center">87</td>
-                        <td style="text-align: center">100</td>
-                    </tr>
-                    <tr>
-                        <td>Princess Leia</td>
-                        <td style="text-align: center">98</td>
-                        <td style="text-align: center">80</td>
-                        <td style="text-align: center">87</td>
-                        <td style="text-align: center">86</td>
-                        <td style="text-align: center">100</td>
-                        <td style="text-align: center">94</td>
-                        <td style="text-align: center">85</td>
-                        <td style="text-align: center">84</td>
-                        <td style="text-align: center">92</td>
-                    </tr>
-                    <tr>
-                        <td>Luke Skywalker</td>
-                        <td style="text-align: center">99</td>
-                        <td style="text-align: center">80</td>
-                        <td style="text-align: center">97</td>
-                        <td style="text-align: center">82</td>
-                        <td style="text-align: center">96</td>
-                        <td style="text-align: center">93</td>
-                        <td style="text-align: center">95</td>
-                        <td style="text-align: center">100</td>
-                        <td style="text-align: center">93</td>
-                    </tr>
-                    <tr>
-                        <td>Han Solo</td>
-                        <td style="text-align: center">83</td>
-                        <td style="text-align: center">99</td>
-                        <td style="text-align: center">94</td>
-                        <td style="text-align: center">98</td>
-                        <td style="text-align: center">86</td>
-                        <td style="text-align: center">85</td>
-                        <td style="text-align: center">86</td>
-                        <td style="text-align: center">80</td>
-                        <td style="text-align: center">84</td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </td>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class=" icons-red fa fa-clock fa-2x"></i>
+                                <br /><span class="sidebar-text">History</span>
+                            </a>
+                        </li>
 
 
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-tv fa-2x"></i>
+                                <br /><span class="sidebar-text">Studio</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa-question  fa-2x"></i>
+                                <br /><span class="sidebar-text">Commons</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-question fa-2x"></i>
+                                <br /><span class="sidebar-text">Help</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-11">
+
+                <div class="row top-bar">
+
+                    <div class="col">
+                        <div class="row">
+                            <i class="col-1 icons-red fa-solid fa-question"></i>
+                            <div class="col-11">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                                    aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a class="sidebar-a links-text"
+                                                href="#">CS4550.12631.202410</a>
+                                        </li>
+                                        <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                </div>
+
+
+                <div class="row">
+                    <div class="col-2 links">
+                        <ul class="links-ul">
+                            <li class="black-line links-li">
+                                <a href="home.html" class="links-a">
+                                    <span class="links-text">Home</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Piazza</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Zoom Meetings</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Modules</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Quizzes</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="assignments/index.html" class="links-a">
+                                    <span class="links-text">Assignments</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="../grades.html" class="links-a">
+                                    <span class="links-text-selected">Grades</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">People</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Microsoft Teams Meetings</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">FACT Reporting and Photo Roster</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Disscussions</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Announcements</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Pages</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Files</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Rubrics</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Outcomes</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Collaborations</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Syllabus</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Progress Reports (EAB Navigate)</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class=col-10>
+                        <div class="row">
+                            <div class="col-12 d-flex flex-row-reverse">
+                                <!-- buttons -->
+                                <div class="p-2">
+                                    <a><button type="button" class="btn btn-light"><i
+                                                class="fa fa-cog"></i></button></a>
+                                </div>
+
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i
+                                        class="icon-padding fa fa-upload"></i>Export
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <!-- <li><a class="dropdown-item" href="#">Export</a></li> -->
             
+                                    </ul>
+                                  </div>
 
-        </tr>
-        
-    </table>
+                                <div class="p-2">
+                                    <a><button type="button" class="btn btn-light"><i
+                                                class="icon-padding fa fa-download"></i>Import</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        
 
 
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="search-students"
+                                    class=" col-form-label text-right-align"><b>Student Names</b></label>
+                                <input type="text" placeholder="Search Students" class="form-control"
+                                id="search-students"></div>
+
+                            <div class="col-6">
+                                <label for="search-assignments"
+                                    class="col-form-label text-right-align"><b>Assignment Names</b></label>
+                                <input type="text" placeholder="Search Assignments" class="form-control"
+                                        id="search-assignments">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <a><button type="button" class="btn btn-light">Apply
+                                    Filters</button></a>
+                        </div>
+
+                        <div class="row">
+                            <!-- main stuff -->
+                            <div class="col table-responsive">
+
+                                <table class="table table-striped">
+                                    <thread>
+                                        <tr>
+                                            <th>Student Name</th>
+                                            <th>A1 SETUP <br /> Out of 100</th>
+                                            <th>A2 HTML<br /> Out of 100</th>
+                                            <th>A3 CSS <br />Out of 100</th>
+                                            <th>A4 BOOTSTRAP <br />Out of 100</th>
+                                            <th>A5 JAVASCRIPT<br /> Out of 100</th>
+                                            <th>A6 REACT <br />Out of 100</th>
+                                            <th>A7 REDUX <br />Out of 100</th>
+                                            <th>A8 NODE <br />Out of 100</th>
+                                            <th>A1 MONGO <br />Out of 100</th>
+                                        </tr>
+                                    </thread>
+                                    <tbody>
+                                        <tr>
+                                            <td>Alice Winderland</td>
+                                            <td style="text-align: center">98</td>
+                                            <td style="text-align: center">
+                                                <input class="field-width" id="grade" type="number" title="grade" value="90" />
+                                            </td>
+                                            <td style="text-align: center">87</td>
+                                            <td style="text-align: center">90</td>
+                                            <td style="text-align: center">89</td>
+                                            <td style="text-align: center">94</td>
+                                            <td style="text-align: center">88</td>
+                                            <td style="text-align: center">87</td>
+                                            <td style="text-align: center">
+                                                <input class="field-width" id="grade" type="number" title="grade" value="100" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Princess Leia</td>
+                                            <td style="text-align: center">98</td>
+                                            <td style="text-align: center">80</td>
+                                            <td style="text-align: center">87</td>
+                                            <td style="text-align: center">86</td>
+                                            <td style="text-align: center">100</td>
+                                            <td style="text-align: center">
+                                                <input class="field-width" id="grade" type="number" title="grade" value="94" />
+                                            </td>
+                                            <td style="text-align: center">85</td>
+                                            <td style="text-align: center">84</td>
+                                            <td style="text-align: center">92</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luke Skywalker</td>
+                                            <td style="text-align: center">99</td>
+                                            <td style="text-align: center">80</td>
+                                            <td style="text-align: center">97</td>
+                                            <td style="text-align: center">
+                                                <input class="field-width" id="grade" type="number" title="grade" value="84" />
+                                            </td>
+                                            <td style="text-align: center">96</td>
+                                            <td style="text-align: center">93</td>
+                                            <td style="text-align: center">95</td>
+                                            <td style="text-align: center">100</td>
+                                            <td style="text-align: center">93</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Han Solo</td>
+                                            <td style="text-align: center">83</td>
+                                            <td style="text-align: center">99</td>
+                                            <td style="text-align: center">94</td>
+                                            <td style="text-align: center">98</td>
+                                            <td style="text-align: center">86</td>
+                                            <td style="text-align: center">85</td>
+                                            <td style="text-align: center">86</td>
+                                            <td style="text-align: center">
+                                                <input class="field-width" id="grade" type="number" title="grade" value="80" />
+                                            </td>
+                                            <td style="text-align: center">84</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+    </body>
 
-</body>
-</html>
-
+    </html>

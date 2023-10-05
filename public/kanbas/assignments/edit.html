@@ -1,223 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <title>Title</title>
- </head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignments</title>
+
+    <link href="index.css" rel="stylesheet" />
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
 <body>
 
-    <table border="0" width="100%">
+    <!DOCTYPE html>
+    <html lang="en">
 
-        <tr> <!-- 1st - declares start of a row -->
-            <td valign="top"> <!-- declares a table data cell -->
-                <ul> <!-- unordered list -->
-                    <li>
-                        <a href= "../profile/index.html">Account</a>
-                    </li>
-                    <li>
-                        <a href="#">Dashboard</a>
-                    </li>
-                    <li>
-                        <a href= "#">Courses</a>
-                    </li>
-                    <li>
-                        <a href= "#">Calendar</a>
-                    </li>
-                    <li>
-                        <a href= "#">Inbox</a>
-                    </li>
-                    <li>
-                        <a href= "#">History</a>
-                    </li>
-                    <li>
-                        <a href= "#">Studio</a>
-                    </li>
-                    <li>
-                        <a href= "#">Commons</a>
-                    </li>
-                    <li>
-                        <a href= "#">Help</a>
-                    </li>
-                </ul>
-            </td>
-        
-            <td valign="top"> <!-- 2nd - declares a table data cell -->
-                <ul> <!-- unordered list -->
-                    <li>
-                        <a href= "../home.html">Home</a>
-                    </li>
-                    <li>
-                        <a href= "#">Modules</a>
-                    </li>
-                    <li>
-                        <a href= "#">Piazza</a>
-                    </li>
-                    <li>
-                        <a href= "#">Zoom Meetings</a>
-                    </li>
-                    <li>
-                        <a href= "#">Assignments</a>
-                    </li>
-                    <li>
-                        <a href= "#">Quizzes</a>
-                    </li>
-                    <li>
-                        <a href= "../grades.html">Grades</a>
-                    </li>
-                    <li>
-                        <a href= "#">People</a>
-                     </li>
-                    <li>
-                        <a href= "#">Panopto Video</a>
-                    </li>
-                    <li>
-                        <a href= "#">Discussions</a>
-                    </li>
-                    <li>
-                        <a href= "#">Announcements</a>
-                    </li>
-                    <li>
-                        <a href= "#">Pages</a>
-                    </li>
-                    <li>
-                        <a href= "#">Files</a>
-                    </li>
-                    <li>
-                        <a href= "#">Rubrics</a>
-                    </li>
-                    <li>
-                        <a href= "#">Outcomes</a>
-                    </li>
-                    <li>
-                        <a href= "#">Collaborations</a>
-                    </li>
-                    <li>
-                        <a href= "#">Syllabus</a>
-                    </li>
-                    <li>
-                        <a href= "#">Settings</a>
-                    </li>
-                </ul>
-            </td>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link href="profile/index.css" rel="stylesheet" />
+        <link href="../vendors/fontawesome/css/all.css" rel="stylesheet" />
+        <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
 
-            <td valign="top"> <!-- 3rd - declares a table data cell -->
-                
-                <select>
-                    <option value="option" selected>SpeedGrader</option>
-                </select>
-                <h2>Assgnment Name</h2>
-                <input type="text"
-                       placeholder="A1 - ENV + HTML"/>
-                <form id="textarea">
-                    <br/>
-                    <textarea cols="20" rows="2">
-                        This is the assignment description.
-                    </textarea>
-                </form>
-                <br/>
-                <label for="Points"> Points
-                </label>
-                <br/>
-                <input type="points"
-                       placeholder="100"/>
-                <br/> <br/>
-                <label for="Assignment Group"> Assignment Group
-                </label> <br/>
-                <select>
-                    <option value="option" selected>ASSIGNMENTS</option>
-                </select>
-                <br/> <br/>
-                <label for="Display">Display Grade as
-                </label> <br/>
-                <select>
-                    <option value="option" selected>Percentage</option>
-                </select>
-                <br/> <br/>
-                <label for="Submission">Submission Type
-                </label> <br/>
-                <select>
-                    <option value="option" selected>Online</option>
-                </select>
-                <br/> <br/>
+    <body>
+        <div class="row">
+            <div class="col-1">
+                <div class="sidebar p-0">
+                    <ul class="sidebar-ul p-0">
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="../profile/index.html">
+                                <i class="icons-white fa fa-user fa-2x"></i>
+                                <br /><span class="sidebar-text">Account</span>
+                            </a>
+                        </li>
 
-                <label>Online Entry Options</label><br/>
-                <input type="radio" name="Text Entry"
-                    value="Text Entry" id="text entry"/> 
-                <label for="text entry">Text Entry<label><br/>
-                    
-                <input type="radio" name="Website URL" 
-                    value="Website URL" id="website url"/>
-                <label for="website url">Website URL<label><br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="../dashboard.html">
+                                <i class="icons-red fa fa-gauge fa-2x"></i>
+                                <br /><span class="sidebar-text">Dashboard</span>
+                            </a>
+                        </li>
 
-                <input type="radio" name="media recordings" 
-                    value="media recordings" id="media recordings"/>
-                <label for="media recordings">Media Recordings<label><br/>
-                
-                <input type="radio" name="student annotation" 
-                    value="student annotation" id="student annotation"/>
-                <label for="student annotation">Student Annotation<label><br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a-selected" href="../home.html">
+                                <i class="icons-red fa fa-book fa-2x"></i>
+                                <br /><span class="sidebar-text-selected">Courses</span>
+                            </a>
+                        </li>
 
-                <input type="radio" name="file uploads" 
-                    value="file uploads" id="file uploads"/>
-                <label for="file uploads">File Uploads<label><br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-calendar fa-2x"></i>
+                                <br /><span class="sidebar-text">Calendar</span>
+                            </a>
+                        </li>
 
-                    <br/>
-                <label for="submission attempts"> Submission Attempts
-                </label> <br/>
-                    <select>
-                        <option value="option" selected>Unlimited</option>
-                    </select>
-                    <br/><br/>
-                    <label for="plagiarism Review">Plagiarism Review
-                    </label> <br/>
-                        <select>
-                            <option value="option" selected>None</option>
-                        </select><br/><br/>
-                
-                        <label>Group Assignment</label><br/>
-                        <input type="radio" name="group assigment"
-                            value="group assignment" id="group assignment"/> 
-                        <label for="group assigbment">This is a group assignment<label><br/>
-                            <br/>
-                        <label>Peer Reviews</label><br/>
-                        <input type="radio" name="peer reviews"
-                            value="peer reviews" id="peer reviews"/> 
-                        <label for="peer reviews">Require Peer Reviews<label><br/>
-                            <br/>
-                            <label for="assign"> Asssign to
-                            </label>
-                            <br/>
-                            <input type="assign"
-                                   placeholder="Everyone"/>
-                            <br/> <br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-inbox fa-2x"></i>
+                                <br /><span class="sidebar-text">Inbox</span>
+                            </a>
+                        </li>
 
-                            <label for="due">Due<br/>
-                            </label>
-                            <input type="date"
-                            id="due"/><br/><br/>
-                    
-                            <label for="available">Available from<br/>
-                            </label>
-                            <input type="date"
-                            id="available"/><br/><br/>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class=" icons-red fa fa-clock fa-2x"></i>
+                                <br /><span class="sidebar-text">History</span>
+                            </a>
+                        </li>
 
-                            <label for="until">Until<br/>
-                            </label>
-                            <input type="date"
-                            id="until"/><br/><br/>
 
-                            <a href="index.html">
-                                <button type="button"><b>Cancel</b></button>
-                              </a>
-                              <a href="index.html">
-                                <button type="button"><b>Save</b></button>
-                              </a>
-            </td>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-tv fa-2x"></i>
+                                <br /><span class="sidebar-text">Studio</span>
+                            </a>
+                        </li>
 
-        </tr>
-        
-    </table>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa-question  fa-2x"></i>
+                                <br /><span class="sidebar-text">Commons</span>
+                            </a>
+                        </li>
 
-</body>
-</html>
+                        <li class="sidebar-list-items">
+                            <a class="sidebar-a" href="#">
+                                <i class="icons-red fa fa-question fa-2x"></i>
+                                <br /><span class="sidebar-text">Help</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
+            <div class="col" style="padding-right: 80px;">
+
+                <div class="row">
+                    <div class="row top-bar">
+                        <div class="col-10 ">
+                            <div class="row">
+                                <i class="col-1 icons-red fa-solid fa-question"></i>
+                                <div class="col-11">
+                                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                                        aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a class="sidebar-a links-text"
+                                                    href="#">CS4550.12631.202410</a>
+                                            </li>
+                                            <li class="breadcrumb-item"><a class="sidebar-a links-text"
+                                                href="index.html">Assignments</a>
+                                        </li>
+                                            <li class="breadcrumb-item active" aria-current="page">A1 - HTML + SETUP
+                                            </li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 right-align float-right">
+                            <button type="button" class="btn btn-light">Student View</button>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-2 links">
+                        <ul class="links-ul">
+                            <li class="black-line links-li">
+                                <a href="../home.html" class="links-a">
+                                    <span class="links-text">Home</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Piazza</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Zoom Meetings</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Modules</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Quizzes</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text-selected">Assignments</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="../grades.html" class="links-a">
+                                    <span class="links-text">Grades</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">People</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Microsoft Teams Meetings</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">FACT Reporting and Photo Roster</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Disscussions</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Announcements</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Pages</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Files</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Rubrics</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Outcomes</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Collaborations</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Syllabus</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Progress Reports (EAB Navigate)</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=col>
+                        <div class="float-end">
+                            <i class="icon-padding text-success fa fa-check-circle"> Published</i>
+                            <a><button type="button" class="btn btn-light"><i class="fa fa-ellipsis-v"></i></button></a>
+                        </div>
+                        <br />
+                        <hr />
+
+                        <div>
+                            <!-- main stuff -->
+                            <label for="text-fields-name">
+                                Assignment Name</label>
+                            <br />
+                            <input class="form-control" type="name" value="A1- ENV + HTML" id="text-fields-name" />
+                            <br />
+
+                            <form id="textarea">
+                                <textarea class="form-control" cols="40"
+                                    rows="5">The assignment describes how to install... hosted on netlify</textarea>
+                            </form>
+
+                            <br />
+
+                            <div class="mb-3 row col input-padding">
+                                <label for="input-points"
+                                    class="col-sm-3 col-form-label text-right-align">Password</label>
+                                <div class="col-sm-8">
+                                    <input type="text" value="100" class="form-control" id="input-points">
+                                </div>
+                            </div>
+
+                            <div class="mb-3 row col input-padding">
+                                <label for="input-assignment-group"
+                                    class="col-sm-3 col-form-label text-right-align">Assignment
+                                    Group</label>
+                                <div class="col-sm-8">
+                                    <input type="text" value="ASSIGNMENTS" class="form-control"
+                                        id="input-assignment-group">
+                                </div>
+                            </div>
+
+                            <div class="mb-3 row col input-padding">
+                                <label for="input-assignment-group"
+                                    class="col-sm-3 col-form-label text-right-align">Display Grade as
+                                </label>
+                                <div class="col-sm-8">
+                                    <input type="text" value="Percentage" class="form-control"
+                                        id="input-assignment-group">
+                                </div>
+                            </div>
+
+                            <div class="mb-3 row col input-padding">
+                                <div class="col-sm-3 col-form-label text-right-align">
+                                </div>
+                                <div class="col-sm-8">
+                                    <input class="form-check-input" type="checkbox" id="check">
+                                    <label class="form-check-label" for="check">
+                                        Do not count this assignment towards final grade
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 row col input-padding">
+                                <label for="input-assignment-group"
+                                    class="col-sm-3 col-form-label text-right-align">Assign
+                                </label>
+                                <div class="card col-sm-8">
+
+                                    <ul class="list-group list-group-flush">
+                                        <label for="assign-to" class=""><b>Assign to</b></label>
+                                        <div class="col">
+                                            <input type="text" value="Everyone" class="form-control" id="assign-to">
+                                        </div>
+
+                                        <label for="Due" class=""><b>Due</b></label>
+                                        <div class="col">
+                                            <input type="date" class="form-control" id="due">
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="col">
+                                                <label for="assign-to" class=""><b>Available from</b></label>
+                                                <input type="date" class="form-control" id="assign-to">
+                                            </div>
+
+                                            <div class="col">
+                                                <label for="assign-to" class=""><b>Until</b></label>
+                                                <input type="date" class="form-control" id="assign-to">
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <br />
+                                    <div class="center card-footer">
+                                        Add
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <hr />
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="checkbox" id="check">
+                                    <label class="form-check-label" for="check">
+                                        Notify users that this content has changed
+                                    </label>
+                                </div>
+                                <div class="col">
+                                    <div class="float-end">
+                                        <a href="index.html">
+                                            <button type="button" class="btn btn-light">Cancel</button>
+                                        </a>
+                                        <a href="index.html">
+                                            <button class="btn btn-danger" type="button"><b>Save</b></button>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        </div>
+
+    </body>
+
+    </html>

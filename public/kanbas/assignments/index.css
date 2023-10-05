@@ -1,0 +1,234 @@
+
+ .sidebar {
+    height: 100%;
+    width: 85px;
+    position: fixed;
+    z-index: 1;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .col-width{
+    width:85px;
+  }
+
+  .sidebar-list-items {
+    width: 85px;
+    text-decoration: none;
+    display: block;
+    align-content:left;
+  }
+
+  .sidebar-text {
+    color: white;
+    font-size: 15px;
+  }
+
+  .sidebar-a{
+    text-decoration: none; 
+  }
+
+  .sidebar-a-selected {
+    display: block;
+    background-color: white;
+    color:red;
+    display: block;
+  }
+
+  .sidebar-text-selected {
+    color: red;
+    font-size: 15px;
+  }
+
+  .icons-red{
+    color: red;
+    padding: 5px;
+    margin-top: 7px;
+  }
+
+  .icons-white{
+    color: white;
+    padding: 5px;
+    margin-top: 7px;
+  }
+
+  .sidebar-ul{
+    text-align:center;
+    list-style-type: none;
+    width: 85px;
+  }
+
+
+ .sidebar {
+  height: 100%;
+  width: 85px;
+  position: fixed;
+  z-index: 1;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.col-width{
+  width:85px;
+}
+
+.sidebar-list-items {
+  width: 85px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+}
+
+.sidebar-text {
+  color: white;
+  font-size: 15px;
+}
+
+.sidebar-a{
+  text-decoration: none; 
+}
+
+.sidebar-a-selected {
+  display: block;
+  background-color: white;
+  color:red;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-text-selected {
+  color: red;
+  font-size: 15px;
+}
+
+.icons-red{
+  color: red;
+  padding: 5px;
+  margin-top: 7px;
+}
+
+.icons-white{
+  color: white;
+  padding: 5px;
+  margin-top: 7px;
+}
+
+.icons-gray{
+  color: gray;
+  padding: 5px;
+  margin-top: 7px;
+}
+
+.sidebar-ul{
+  text-align:center;
+  list-style-type: none;
+  width: 85px;
+}
+
+.links{
+  padding-left: 25px;
+}
+
+.links-ul{
+  text-align:left;
+  list-style-type: none;
+}
+
+.links-text-selected{
+    color: black; 
+    border-left: 2px solid black;
+    padding-left: 5px;
+}
+
+.links-text{
+  color: red;
+  padding-left: 5px;
+}
+
+.black-line{
+  border-left: black;
+  border-width: 3px;
+}
+
+.links-a{
+  text-decoration: none; 
+  margin-left: 8px;
+}
+
+.links-no-line{
+  text-decoration: none; 
+}
+
+.links-li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.black-text{
+  color: black;
+  text-align: left;
+}
+
+.top-bar{
+  margin-left: 8px;
+  padding: 20px;
+}
+
+.divider-line{
+   border: 1px solid gainsboro;
+   width: 100%;
+   margin: 10px;
+}
+
+.center-label{
+align-items: center;
+}
+
+.center{
+  text-align: center;
+  }
+
+.bg-red{
+background-color: red;
+color: white;
+}
+
+.card-margins{
+margin: 20px;
+}
+
+.modules-left-margin{
+margin-left: 30px;
+}
+
+.icon-padding{
+padding: 4px;
+}
+
+.text-gray{
+color: gray
+}
+
+.right-align{
+  align-content: right;
+}
+.align-right{
+  text-align: right;
+}
+
+.input-padding{
+  padding-left: 20px;
+  padding-right: 70px;
+}
+
+.text-right-align{
+  text-align: right;
+}
+
+
+ 
+
+  
+  

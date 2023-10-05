@@ -1,108 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <title>Title</title>
- </head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
 <body>
 
-    <table border="0" width="100%">
 
-        <tr> <!-- 1st - declares start of a row -->
-            <td valign="top"> <!-- declares a table data cell -->
-                <ul> <!-- unordered list -->
-                    <li>
-                        <a href= "#">Account</a>
+    <div class="row">
+        <div class="col-1">
+            <div class="sidebar">
+                <ul class="sidebar-ul p-0">
+                    <li class="sidebar-list-items">
+                        <a:active class="sidebar-a-selected" href="#">
+                            <i class="icons-gray fa fa-user fa-2x"></i>
+                            <br /><span class="sidebar-text-selected">Account</span>
+                            </a>
                     </li>
-                    <li>
-                        <a href="#">Dashboard</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="../dashboard.html">
+                            <i class="icons-red fa fa-gauge fa-2x"></i>
+                            <br /><span class="sidebar-text">Dashboard</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "../assignments/index.html">Courses</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="../home.html">
+                            <i class="icons-red fa fa-book fa-2x"></i>
+                            <br /><span class="sidebar-text">Courses</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "#">Calendar</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="#">
+                            <i class="icons-red fa fa-calendar fa-2x"></i>
+                            <br /><span class="sidebar-text">Calendar</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "#">Inbox</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="#">
+                            <i class="icons-red fa fa-inbox fa-2x"></i>
+                            <br /><span class="sidebar-text">Inbox</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "#">History</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="#">
+                            <i class=" icons-red fa fa-clock fa-2x"></i>
+                            <br /><span class="sidebar-text">History</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "#">Studio</a>
+
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="#">
+                            <i class="icons-red fa fa-tv fa-2x"></i>
+                            <br /><span class="sidebar-text">Studio</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "#">Commons</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="#">
+                            <i class="icons-red fa-question  fa-2x"></i>
+                            <br /><span class="sidebar-text">Commons</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href= "#">Help</a>
+
+                    <li class="sidebar-list-items">
+                        <a class="sidebar-a" href="#">
+                            <i class="icons-red fa fa-question fa-2x"></i>
+                            <br /><span class="sidebar-text">Help</span>
+                        </a>
                     </li>
                 </ul>
-            </td>
-        
-            <td valign="top"> <!-- 2nd - declares a table data cell -->
-                <ul> <!-- unordered list -->
-                    <li>
-                        <a href= "#">Notifications</a>
-                    </li>
-                    <li>
-                        <a href= "#">Profile</a>
-                    </li>
-                    <li>
-                        <a href= "#">Files</a>
-                    </li>
-                    <li>
-                        <a href= "#">Settings Meetings</a>
-                    </li>
-                    <li>
-                        <a href= "#">ePortfolios</a>
-                    </li>
-                    <li>
-                        <a href= "#">Shared Content</a>
-                    </li>
-                    <li>
-                        <a href= "#">The Hub</a>
-                    </li>
-                    <li>
-                        <a href= "#">Qwickly Course Tools</a>
-                     </li>
-                    <li>
-                        <a href= "#">Global Announcements</a>
-                    </li>
-                    
-                </ul>
-            </td>
+            </div>
+        </div>
 
-            <td valign="top"> <!-- 3rd - declares a table data cell -->
-                Jose Annunziato's Profile
-                <br/><br/><br/>
-                <h2>Jose Annunziato</h2> 
-                <h2>Contact</h2>
-                No Registered services, you can add some on the settings page. <br/>
-                <h2>Biography</h2>
-                Faculty, Software Engineer, AI, Space, and renewables enthusiast.<br/>
-                <h2>Links</h2>
-                <a href="#">YouTube</a>
-                
-            </td>
+        <div class="col">
+            <div class="row">
+                <div class="top-bar">
+                    <i class="icons-red fa-solid fa-bars"></i>
+                    <span class="black-text">
+                        Maddie Lebiedzinski's Profile</span>
+                        <hr/>
+                </div>
 
-            <td valign="right">
-            <a href="edit.html">
-                <button type="button"><b>Edit Profile</b></button>
-              </a>
-            </td>
+                <div class="row">
+                    <div class="col links">
+                        <ul class="links-ul">
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Notifications</span>
+                                </a>
+                            </li>
+                            <li class="black-line links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text-selected">Profile</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Files</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Settings Meetings</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">ePortfolios</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Shared Content</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">The Hub</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Qwickly Course Tools</span>
+                                </a>
+                            </li>
+                            <li class="links-li">
+                                <a href="#" class="links-a">
+                                    <span class="links-text">Global Announcements</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="col">
+                        <i class="icons-gray fa fa-user fa-4x"></i>
+                        <h2>Maddie Lebiedzinski</h2>
+                        <br/>
+                        <h3>Contact</h3>
+                        No Registered services, you can add some on the settings page. <br/>
+                        <br/>
+                        <h3>Biography</h3>
+                        Student at Northeastern University studying Computer Sceince and Design.<br />
+                        <br/>
+                        <h3>Links</h3>
+                        <a class="links-text sidebar-a" href="#">YouTube</a>
+                    </div>
 
+                    <div class="col">
+                        <a href="edit.html">
+                            <button type="button" class="btn btn-light"><b>
+                                Edit Profile<i class="icons-gray fa fa-pencil"></i></b></button>
+                        </a>
+                    </div>
 
-        </tr>
-        
-    </table>
-
-
-
-
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
-</html>
 
+</html>

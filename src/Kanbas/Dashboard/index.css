@@ -1,0 +1,8 @@
+.card-margins {
+    min-width: 250px;
+    max-width: 270px;
+}
+
+.card-header{
+    height: 160px; 
+}

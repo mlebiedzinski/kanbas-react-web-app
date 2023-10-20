@@ -1,0 +1,16 @@
+.course-nav-links {
+    color: red !important;
+    border: none !important;
+}
+
+.course-nav-col {
+    padding-left: 20px !important;
+}
+
+.course-nav-links.active {
+    color: black !important;
+    border-left: black !important;
+    border-width: 4px !important;
+    background-color: white !important;
+}
+

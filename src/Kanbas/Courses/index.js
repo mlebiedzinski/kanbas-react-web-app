@@ -8,13 +8,11 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 
-
-
-function Courses() {
+function Courses({courses}) {
     const { courseId } = useParams();
     const { pathname } = useLocation();
 
-    const course = db.courses.find((course) => course._id === courseId);
+    const course = courses.find((course) => course._id === courseId);
     return (
         <div>
 

@@ -37,8 +37,6 @@ function Assignment4() {
             <ChildStateComponent/>
             <ReduxExamples/>
             <TodoList/>
-
-
         </div>
     );
 }
